@@ -1,0 +1,135 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+img{
+    width: 400px;;
+}
+html {
+    font-size: 10px;
+}
+
+html,body{
+    height :100%;
+}
+
+
+body {
+    background-image: url(img/coffee-beans-.webp) ;
+    background-position: center center;
+    position: relative;
+    
+}
+
+#container {
+    max-width: 1124px;
+    margin: 0 auto;
+}
+
+#container > header {
+    background-image: url(img/coffee-beans-.webp);
+    text-align: center;
+    padding-top: 1rem;
+}
+
+main {
+    background: #f8f5e7;
+    font-size: 20px;
+    padding: 1rem;
+    font-family:Garamond ;
+}
+
+footer {
+    background: olive;
+    height: 7rem;
+}
+
+/* NAV */
+nav {
+    background: olive;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+    
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    color: #ecedea;
+    border-right: 1px solid #efebd4;
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    color: #ecedea;
+    padding: 15px;
+}
+
+/* MAIN */
+div > header {
+    color: rgb(87, 87, 8);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+    font-weight: 800;
+    
+}
+
+.titulo{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+
+.texto{
+    width: 50%;
+    text-align: center;
+}
+
+
+.esq{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5%;
+    flex-direction: row-reverse;
+    width: 100%;
+    align-items: center;
+}
+.dir{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+}
+
+.produto p {
+    background-color: olive;
+    color: #efebd4;
+    padding: 5px 2px;
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+   
+}
+ .produto p:hover {
+     transform: rotate(-3deg);
+ }
+
+
+ #propaganda{
+     position: absolute;
+     height:207px;
+     width: 405px;
+     background-image: url("img/www.foxtrot.com\ .png");
+     background-size: cover;
+     
+     right: 10px;
+     bottom: -450px;
+ }
